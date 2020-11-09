@@ -1,0 +1,40 @@
+body{
+    background-image: url("../img/gifs/Square.gif");
+    background-size: cover;
+}
+
+.button1{  
+    position: relative;
+	width: 800px;
+    top: 400px;
+    left: 750px;
+    opacity: .75;
+    transition: opacity 1s ease-in;
+}
+
+.button1:hover{
+
+    opacity: 0;
+    
+}  
+
+.button2{  
+    position: fixed;
+	width: 800px;
+    top: 408.1px;
+    left: 757px;
+    opacity: 0;
+    transition: opacity .3s ease-in;
+    
+}
+
+.button2:hover{
+
+    opacity: 1;
+    
+} 
+
+img{
+    width: 50%;
+}
+

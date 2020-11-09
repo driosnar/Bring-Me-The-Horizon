@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title> Home</title>
+    <link rel="stylesheet" href="css/stylesheet.css" type="text/css">    
+</head>
+    <body>
+    <div class = "box-a"><a href= "index1.html"> <img src ="img/header2.png"> </a></div>  
+        
+<div class = "main">
+<div class = "menu">
+    
+    <div class= "music"><a href= "index2.html"> music</a> </div>
+    <div class = "about the band"><a href= "index6.html"> about the band </a></div>
+    <div class = "concert"><a href= "index5.html"> concerts </a></div>
+    <div class = "band members"><a href= "index3.html"> band members </a></div>
+    <div class = "gallery"><a href= "index4.html"> gallery </a></div>
+    <div class = "news"><a href= "index7.html"> news </a></div>
+    
+</div>
+</div>
+
+<div class = "sub-menu">
+    <div class="sub-gallery"> gallery </div>
+    <div class = "sub-news"> news </div>
+    <div class = "sub-concert"> concerts</div>    
+</div>
+
+<div class = "menu-2"> 
+    <div class = "image1"><img src = "img/8f5e61041dfd82b8409dd53a9a86cfdb.jpg"> </div>
+    
+    <div class = "body-text"> 
+        <img src = "img/chels%20smile.jpg">
+        <header> <a href = "https://www.altpress.com/altpress_quizzes/bring-me-the-horizon-chelsea-smile-lyrics-quiz/">QUIZ: DO YOU REMEMBER THE LYRICS TO BMTH’S “CHELSEA SMILE”? </a></header>
+        
+        "It’s time for every Bring Me The Horizon fan to “repent, repent” because Suicide Season turns 12 years old today. The iconic album sleeve remains a staple on record shelves with the cover model literally spilling her guts."... 
+    </div>
+    
+    <div class = "image1"> <img src = "img/Nova-Rock-2020-Lineup-Poster.jpg"></div>
+    <div class = "image1"> <img src = "img/unnamed%20(1).jpg"></div>
+    
+    <div class = "body-text">
+        <img src = "img/obey.jpg">
+        <header><a href = "https://www.altpress.com/news/bring-me-the-horizon-yungblud-obey-concept/"> BMTH AND YUNGBLUD’S “OBEY” VIDEO COULD’VE LOOKED A LOT DIFFERENT</a> </header>
+        
+        "Now, the artists are celebrating a major music milestone all thanks to the single. As well, they are offering a behind-the-scenes look into how the iconic “Obey” video was created.  YUNGBLUD first teased the collaboration back in July when he sent a cryptic tweet to Oli Sykes and Jordan Fish. "...
+    </div>
+    
+    <div class = "image1"> <img class = image2 src = "img/Festicket_Poster_655x926px.jpg"></div>
+        
+</div>  
+
+<div class = "sub-menu2">
+    <div class="sub-Music"> Music </div>           
+</div>
+        
+ 
+        
+        
+        
+        
+        
+        
+<audio id = "audioFile">
+        
+        <source src ="audioFile/Sugar,%20Honey,%20Ice%20and%20Tea.mp3" type = "audio/mpeg">
+    
+</audio>
+        
+<a class = 'musicOff'><img src = "img/Play.png" id="myImg"> </a>  
+        
+<script src = "https://khaalipaper.com/js/jquery-3.2.1.min.js"> </script> 
+        
+<script type = "text/javascript">
+        function changeImg(){
+        var image = document.getElementById('myImg');
+        if(image.src.match("./img/Play.png")){
+           image.src = "./img/Pause.png";
+        }
+        
+        else{
+            image.src = "./img/Play.png";
+            }
+        }
+        
+        $(document).ready(function(){
+        $(".musicOff").click(function(){
+            var image = document.getElementById('myImg');
+            var x = document.getElementById("audioFile");
+            x.play();
+            x.volume = .3;
+            
+        if (image.src.match("./img/Play.png")){
+            image.src = "./img/Pause.png";
+        }
+        
+        else {
+            image.src = "./img/Play.png";
+            x.pause();
+        }
+       });
+       });
+        
+        
+</script>
+        
+                
+        
+        
+<div class = "sub-menu">
+    <div class="sub-Band"> Band Members </div> 
+</div>
+    
+<div class = "menu-3"> 
+    <div class = "member"><a href= "index3.html"><img src = "img/1200px-2016_RiP_Bring_Me_the_Horizon_-_Lee_Malia_-_by_2eight_-_8SC6570.png"></a> Lee Malia </div>
+    <div class = "member"><a href= "index3.html"><img src = "img/2016_RiP_Bring_Me_the_Horizon_-_Matt_Nicholls_-_by_2eight_-_8SC6569.png"></a> Mat Nicholls </div>
+    <div class = "member"><a href= "index3.html"><img src = "img/4940320533_34544e585b_b.png"></a> Jona Weinhofen </div>
+    <div class = "member"><a href= "index3.html"><img src = "img/jordan-fish-bring-me-the-horizon-interview-1200x900.png"></a> Jordan Fish </div>
+    <div class = "member"><a href= "index3.html"><img src = "img/(1).png"></a> Matt Kean </div>
+        <div class = "member"><a href= "index3.html"><img src = "img/tumblr_o0ef6w5zxv1u1ycm9o1_1280.png"></a> Oliver Sykes </div>
+    
+        <div class = "member"><div class = member7><a href= "index3.html"><img src = "img/old2.png"></a> Curtis Ward</div></div>
+</div>   
+    
+ 
+
+
+</body>
+</html>

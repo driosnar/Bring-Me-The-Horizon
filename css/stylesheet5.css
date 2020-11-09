@@ -1,0 +1,70 @@
+body{
+    background-image: url("../img/gifs/Static.gif");
+    background-size: auto;
+}
+
+img{
+    width: 100%;
+}   
+    
+.menu {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-gap: 15px;
+}
+.main > div{
+    background: dimgray;
+    width: 1890px;
+    height: 200px;
+}
+
+.menu > div{
+    background-color: sandybrown;
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+    
+}
+
+
+.sub-menu{
+    position: relative;
+    top: 30px;
+    left: 700px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-gap: 170px;
+}
+
+.sub-menu > div{
+    background-color: lightgrey;
+    padding: 20px;
+    text-align: center;
+    font-size:  30px;
+    /*font: book antiqua;*/
+
+}
+
+.row {
+    position: relative;
+    top: 60px;
+    background-color: grey;
+    display: grid;
+    grid-template-columns: repeat(3  , 3fr);
+    grid-template-rows: 5fr;
+    grid-gap: 10px;
+}
+
+.row > div{
+    background-color: dimgrey;
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+
+

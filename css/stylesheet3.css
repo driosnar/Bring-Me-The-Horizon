@@ -1,0 +1,187 @@
+body{
+    background-image: url("../img/gifs/Static.gif");
+    background-size: auto;
+}
+
+
+img{
+    width: 100%;
+}
+
+.body{
+    background-color: grey !important;
+}
+
+.menu {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-gap: 15px;
+}
+.main > div{
+    background: dimgray;
+    width: 1890px;
+    height: 200px;
+}
+
+.menu > div{
+    background-color: sandybrown;
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+    
+}
+
+.row {
+    position: relative;
+    top: 20px;
+    background-color: grey;
+    display: grid;
+    grid-template-columns: repeat(2 , 2fr);
+    grid-template-rows: 2fr;
+    grid-gap: 100px;
+    
+}
+
+.row > div{
+    background-color: dimgray;
+    padding: 20px;
+    text-align: center;
+    
+    font-size: 40px;
+}
+
+.thumbnail{
+    background-color: dimgray;
+    grid-column: 1/2;
+    grid-row: 1/8;
+    
+}
+.text{
+    text-align: center;
+}
+
+.thumbnail2{
+    background-color: dimgray;
+    grid-column: 1/2;
+    grid-row: 1/8;
+    left: 10px;
+}
+
+
+
+.row2 {
+    background-color: grey;
+    position: relative;
+    top:40px;
+    display: grid;
+    grid-template-columns: repeat(2 , 2fr);
+    grid-template-rows: 2fr;
+    grid-gap: 100px;
+    
+}
+
+.row2 > div{
+    background-color: dimgray;
+    padding: 20px;
+    text-align: center;
+    
+    font-size: 40px;
+}
+
+.row3 {
+    background-color: grey;
+    position: relative;
+    top: 60px;
+    display: grid;
+    grid-template-columns: repeat(2 , 2fr);
+    grid-template-rows: 2fr;
+    grid-gap: 100px;
+    
+}
+
+.row3 > div{
+    background-color: dimgray;
+    padding: 20px;
+    text-align: center;
+    
+    font-size: 40px;
+}
+
+.row4 {
+    background-color: grey;
+    position: relative;
+    top: 80px;
+    display: grid;
+    grid-template-columns: repeat(2 , 2fr);
+    grid-template-rows: 2fr;
+    grid-gap: 100px;
+    
+}
+
+.row4 > div{
+    background-color: dimgray;
+    padding: 20px;
+    text-align: center;
+    
+    font-size: 40px;
+}
+
+.row5 {
+    background-color: grey;
+    position: relative;
+    top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2 , 2fr);
+    grid-template-rows: 2fr;
+    grid-gap: 100px;
+    
+}
+
+.row5 > div{
+    background-color: dimgray;
+    padding: 20px;
+    text-align: center;
+    
+    font-size: 40px;
+}
+
+
+.row6 {
+    background-color: grey;
+    position: relative;
+    top: 120px;
+    display: grid;
+    grid-template-columns: repeat(2 , 2fr);
+    grid-template-rows: 2fr;
+    grid-gap: 100px;
+}
+
+.row6 > div{
+    background-color: dimgray;
+    padding: 20px;
+    text-align: center;
+    
+    font-size: 40px;
+}
+
+
+.row7 {
+    background-color: grey;
+    position: relative;
+    top: 140px;
+    display: grid;
+    grid-template-columns: repeat(2 , 2fr);
+    grid-template-rows: 2fr;
+    grid-gap: 100px;
+    
+}
+
+.row7 > div{
+    background-color: dimgray;
+    padding: 20px;
+    text-align: center;
+    
+    font-size: 40px;
+}

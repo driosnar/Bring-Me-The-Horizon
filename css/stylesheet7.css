@@ -1,0 +1,96 @@
+body{
+    background-image: url("../img/gifs/Static.gif");
+    background-size: auto;
+}
+
+
+img{
+    width: 100%;
+}
+
+.body{
+    background-color: grey !important;
+}
+
+.menu {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-gap: 15px;
+}
+.main > div{
+    background: dimgray;
+    width: 1890px;
+    height: 200px;
+}
+
+.menu > div{
+    background-color: sandybrown;
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+    
+}
+
+.row {
+    position: relative;
+    top: 20px;
+    background-color: grey;
+    display: grid;
+    grid-template-columns: repeat(2 , 6fr);
+    grid-template-rows: 6fr;
+    grid-gap: 100px;
+    
+}
+
+.row > div{
+    background-color: dimgray;
+    padding: 20px;
+    text-align: center;
+    
+    font-size: 30px;
+}
+
+.thumbnail{
+    width: 70%;
+    background-color: dimgray;
+    grid-column: 1/2;
+    grid-row: 1/8;
+    
+}
+.text{
+    text-align: right;
+    position: relative;
+    bottom: 75px;
+}
+
+.text2{
+    text-align: right;
+    position: relative;
+    bottom: 202px;
+}
+
+.images{
+    width: 17%;
+    height: 30%;   
+}
+
+.t1{
+    position: relative;
+    bottom: 1400px;
+    left: 670px;
+}
+
+.t2{
+    position: relative;
+    bottom: 1090px;
+    left: 670px;
+}
+
+.t3{
+    position: relative;
+    bottom: 756px;
+    left: 670px;
+}
+

@@ -1,0 +1,91 @@
+body{
+    background-image: url("../img/gifs/Static.gif");
+    background-size: auto;
+}
+
+
+img{
+    width: 100%;
+}
+
+.body{
+    background-color: grey !important;
+}
+
+.menu {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-gap: 15px;
+}
+.main > div{
+    background: dimgray;
+    width: 1890px;
+    height: 200px;
+}
+
+.menu > div{
+    background-color: sandybrown;
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+    
+}
+
+.row {
+    position: relative;
+    top: 20px;
+    background-color: grey;
+    display: grid;
+    grid-template-columns: repeat(2 , 2fr);
+    grid-template-rows: 2fr;
+    grid-gap: 100px;
+    
+}
+
+.row > div{
+    background-color: dimgray;
+    padding: 20px;
+    text-align: center;
+    
+    font-size: 30px;
+}
+
+.thumbnail{
+    width: 70%;
+    background-color: dimgray;
+    grid-column: 1/2;
+    grid-row: 1/6;
+    
+}
+.text{
+    text-align: center;
+    position: relative;
+    bottom: 900px;
+}
+
+.text2{
+    text-align: center;
+    position: relative;
+    bottom: 990px;
+}
+
+.media{
+    position:relative;
+    bottom: 1090px;
+}
+
+.social_media {
+    position: relative;
+    bottom: 1160px;
+    left: 1070px;
+    display: grid;
+    grid-template-columns: repeat(5  , 5fr);
+    grid-template-rows: 3fr;
+    grid-gap: 50px;
+    width: 40%;
+    height: 40%;
+}
+
+

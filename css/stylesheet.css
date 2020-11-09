@@ -1,0 +1,153 @@
+body{
+    background-image: url("../img/gifs/Static.gif");
+    background-size: auto;
+}
+
+.menu {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-gap: 15px;
+}
+.main > div{
+    background: dimgray;
+    width: 1890px;
+    height: 200px;
+}
+
+.menu > div{
+    background-color: sandybrown;
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+    
+}
+
+.sub-menu{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-gap: 170px;
+    top: 20px;
+}
+
+.sub-menu > div{
+    background-color: dimgray;
+    padding: 20px;
+    text-align: center;
+    font-size:  30px;
+    
+    /*font: book antiqua;*/
+
+}
+
+.sub-menu2{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-gap: 170px;
+    top: 40px;
+}
+
+.sub-menu2 > div{
+    background-color: dimgray;
+    padding: 20px;
+    text-align: center;
+    font-size:  30px;
+    
+    /*font: book antiqua;*/
+
+}
+
+
+.menu-2{
+    position: relative;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-gap: 30px;
+    top: 30px;
+}
+
+
+.menu-2 > div{
+
+    background-color: dimgray;
+    padding: 20px;
+    text-align: center;  
+}
+
+.image2 {
+    height: 70%;
+}
+
+.body-text{
+    font-size: 20px;
+    font-family: sans-serif
+}
+
+.catagory{
+    Background-color: dimgray;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr
+    
+}
+
+.catagory > div{
+    padding: 20px;
+    text-align: center;
+    border: 2px solid;
+}
+
+.menu-3{
+    position: relative;
+    background-color: dimgray;
+    display:grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 1fr;
+    grid-gap: 20px;
+    top: 30px;
+        
+}
+
+.member7 {
+    width: 176px
+}
+.header{
+    font-weight: 100;
+    font-size: 40px;
+}
+
+
+.member{
+    position: relative;
+    width: 90%;
+    filter: grayscale(100%);
+    opacity: .75;
+    transition: filter 1s ease-in, opacity 1s ease-in;
+    
+}
+
+.member:hover{
+    filter:grayscale(0%);
+    opacity: 1;
+    
+}  
+
+.sub-menu3{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-gap: 170px;
+    top:-10;
+
+}
+
+img{
+    width: 100%;
+}
